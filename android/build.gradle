@@ -12,7 +12,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 29
     buildToolsVersion "23.0.1"
 
     defaultConfig {
@@ -33,4 +33,3 @@ repositories {
 dependencies {
     compile 'com.facebook.react:react-native:+'
 }
-  
